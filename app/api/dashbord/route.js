@@ -17,6 +17,7 @@ export async function GET(request) {
   }
 }
 //post request
+
 export async function POST(request) {
   try {
     const body = await request.json();
@@ -32,7 +33,7 @@ export async function POST(request) {
   } catch (error) {
     console.error("Error saving data:", error);
     return NextResponse.json(
-      { message: "Failed to save data." },
+      { message: "Failed to save data whay asadul." },
       { status: 500 }
     );
   }
