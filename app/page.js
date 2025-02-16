@@ -7,7 +7,7 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/dashbord")
+    fetch("https://courageous-macaron-335fd4.netlify.app/api/dashbord")
       .then((res) => res.json())
       .then(setUsers)
       .catch(setError);

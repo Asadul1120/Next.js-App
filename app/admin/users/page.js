@@ -8,7 +8,7 @@ function Page() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/all-person")
+    fetch("https://courageous-macaron-335fd4.netlify.app/api/all-person")
       .then((res) => res.json())
       .then(setUsers)
       .catch(setError);

@@ -12,7 +12,7 @@ export default function InputPage() {
       message: formData.get("message"),
     };
 
-    const response = await fetch("http://localhost:3000/api/save-to-file", {
+    const response = await fetch("https://courageous-macaron-335fd4.netlify.app/api/save-to-file", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

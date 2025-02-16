@@ -71,7 +71,7 @@ export default function AlllineTable({ employee }) {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/api/dashbord", {
+      const response = await fetch("https://courageous-macaron-335fd4.netlify.app/api/dashbord", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(selectedData),
