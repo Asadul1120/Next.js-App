@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "line": "Line 7",
+      "person": [
+        {
+          "id": 3,
+          "shift": "B",
+          "name": "Jane Smith",
+          "ID": "67890",
+          "time": true
+        },
+        {
+          "id": 4,
+          "shift": "A",
+          "name": "Jane Smith",
+          "ID": "67890",
+          "time": true
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "line": "Line 1/2",
+      "person": [
+        {
+          "id": 1,
+          "shift": "N",
+          "name": "John Doe",
+          "ID": "12345",
+          "time": true
+        },
+        {
+          "id": 2,
+          "shift": "B",
+          "name": "John Doe",
+          "ID": "12345",
+          "time": true
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "line": "Line 7",
+      "person": [
+        {
+          "id": 3,
+          "shift": "C",
+          "name": "Jane Smith",
+          "ID": "67890",
+          "time": true
+        },
+        {
+          "id": 4,
+          "shift": "B",
+          "name": "Jane Smith",
+          "ID": "67890",
+          "time": true
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "line": "Line 1/2",
+      "person": [
+        {
+          "id": 2,
+          "shift": "C",
+          "name": "John Doe",
+          "ID": "12345",
+          "time": true
+        },
+        {
+          "id": 1,
+          "shift": "C",
+          "name": "John Doe",
+          "ID": "12345",
+          "time": true
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "line": "Line 1/2",
+    "person": [
+      {
+        "id": 1,
+        "shift": "N",
+        "name": "John Doe",
+        "ID": "12345"
+      },
+      {
+        "id": 2,
+        "shift": "N",
+        "name": "John Doe",
+        "ID": "12345"
+      }
+    ]
+  },
+  {
+    "line": "Line 7",
+    "person": [
+      {
+        "id": 3,
+        "shift": "N",
+        "name": "Jane Smith",
+        "ID": "67890"
+      },
+      {
+        "id": 4,
+        "shift": "N",
+        "name": "Jane Smith",
+        "ID": "67890"
+      }
+    ]
+  }
+]
