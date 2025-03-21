@@ -9,24 +9,12 @@ export default function InputPage() {
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
-      message: formData.get("message"),
+      message: formData.get("password"),
     };
 
-    const response = await fetch("https://courageous-macaron-335fd4.netlify.app/api/save-to-file", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-
-    if (response.ok) {
-      const result = await response.json();
-      alert("Data saved successfully!");
-      console.log(result);
-    } else {
-      alert("Error saving data.");
-    }
+    
+    console.log(data);
+    event.target.reset();
   };
 
   return (
@@ -56,16 +44,17 @@ export default function InputPage() {
         />
       </div>
       <div className="mb-3">
-        <label htmlFor="message" className="form-label">
-          Message:
+        <label htmlFor="password" className="form-label">
+          Password:
         </label>
-        <textarea
-          name="message"
-          id="message"
+        <input
+          type="password"
+          name="password"
+          id="password"
           className="form-control"
-          rows="4"
           required
-        ></textarea>
+        />
+
       </div>
       <button type="submit" className="btn btn-primary w-100">
         Submit

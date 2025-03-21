@@ -23,6 +23,17 @@ const Header = () => {
                 <p>Home</p>
               </Link>
             </li>
+             
+            <li className="nav-item">
+              <Link
+                className="nav-link text-white d-flex flex-column align-items-center fs-4"
+                href="/schedule"
+              >
+                <i className="fa-solid fa-calendar-check"></i>
+                <p> Schedule</p>
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link
                 className="nav-link text-white d-flex flex-column align-items-center fs-4"
